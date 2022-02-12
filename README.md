@@ -31,19 +31,16 @@ Avocado consumption data is included in the Avocado dataset, which spans the yea
 ![Averageprice1.png](image/Averageprice1.png)
 
 <b>Observations</b><br>
-* There is a strong co-relation between TotalVolume Vs Small and TotalBags Vs SmallBags.
-* We can say weak co-relation between TotalVolume Vs XLarge and TotalBags Vs XLargeBags.
-* Large and LargeBags comes in the middle.
-
+* TotalVolume vs Small and TotalBags vs SmallBags have a strong relationship. 
+* TotalVolume vs XLarge and TotalBags vs. XLargeBags have a modest correlation. Large and LargeBags are in the middle of the pack.
 ![3.png](image/3.png)
 
 ![7.JPG](image/7.JPG)
 
 <b>Conclusion</b><br>
-* Columns like Type of avocado, size and bags have impact on Average Price, __lesser the RMSE value__ accurate the model is, when we consider Small Hass in Small Bags.
-* __Random forest Classifier__ has more accuracy than __Logistic regression__ model for this dataset , __accuracy is 0.99__ it may also denote it is overfitting as it even classifies the outliers perfectly.
-* __Random forest classifier__ model predicts the type of Avocado more accurately than __Logistic regression__ model.
-* __Random Forest Regressor__ model predicts the average price more accurately than __Linear regression__ model.<br>
-
+* When we analyze Small Hass in Small Bags, columns like Type of Avocado, Size, and Bags have an impact on Average Price. The __lower the RMSE value__, the more accurate the model is.
+* For this dataset, the __Random forest Classifier__ has a higher accuracy than the __Logistic regression__ model (__accuracy is 0.99__). This could indicate that it is overfitting because it correctly classifies the outliers.
+* The __Random forest classifier__ model is more accurate than the __Logistic regression__ model in predicting Avocado type.
+* The __Random Forest Regressor__ model is more accurate than the __Linear regression__ model in predicting the average price.br>
 [Notebook](AvocadoDataset.ipynb)
 
