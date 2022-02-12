@@ -3,12 +3,11 @@
 ## Problem Statement:-
 We're using the Avocado dataset from 2015, 2016, 2017, and 2018 to categorize Organic & Conventional Types and forecast the average price using a regression model.
 
-
-
 Introduction
 Avocado consumption data is included in the Avocado dataset, which spans the years 2015 to 2018. Avocados are offered in two varieties.
 
 
+![avocado.jpg](image/avocado.jpg)
 
 
 ### <center>Data
